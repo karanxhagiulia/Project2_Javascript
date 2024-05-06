@@ -1,5 +1,5 @@
 # Crypto Tracker
-By Giulia Karanxha.
+*By Giulia Karanxha.*
 
 [See it in action!](https://cryptotrackerproject2javascript.netlify.app/)
 
