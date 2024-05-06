@@ -1,4 +1,5 @@
 # Crypto Tracker
+[See it in action!](https://cryptotrackerproject2javascript.netlify.app/)
 
 Crypto Tracker is a web application that allows users to track their cryptocurrency investments. Users can input the cryptocurrencies they own, along with the quantity and purchase price, and the application will calculate the current value and profit/loss of their investments.
 
