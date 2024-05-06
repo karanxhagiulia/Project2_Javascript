@@ -28,3 +28,14 @@ Crypto Tracker is a web application that allows users to track their cryptocurre
 ## Credits
 
 - **CoinGecko API:** Used to fetch the list of cryptocurrencies and their current prices.
+
+## Future Improvements
+- **Performance:** Right now, the page upload is quite sluggish. I would like to implement some Lazy Loading.
+- **UX Appearance:** I would also like to improve the UX of the page.
+- **Add other investments (metals, stocks, etc.)**
+- **Add user login.**
+
+
+![image](https://github.com/karanxhagiulia/Project2_Javascript/assets/96819403/eacd81f2-d211-49cd-80c6-e9d1fa7383e5)
+![image](https://github.com/karanxhagiulia/Project2_Javascript/assets/96819403/481fc1a9-7ec2-4799-8841-d91c1f365fdd)
+![image](https://github.com/karanxhagiulia/Project2_Javascript/assets/96819403/6a641635-e216-4cc9-a0f2-f42bc4acbdec)
