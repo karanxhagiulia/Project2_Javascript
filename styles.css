@@ -1,0 +1,111 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Montserrat', sans-serif; /* Example of using Google Fonts */
+    margin-bottom: 30px; /* Increase spacing between heading and form */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px; /* Increase spacing between form and results */
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px; /* Increase spacing between label and input */
+    color: #555; /* Use a slightly muted color for labels */
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px; /* Increase spacing between inputs */
+    border: 1px solid #ddd; /* Use a lighter border color */
+    border-radius: 8px; /* Use rounded corners for inputs */
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+button {
+    padding: 14px 28px;
+    background-color: #4CAF50; /* Use a vibrant color for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Darken the color on hover */
+}
+
+#results {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 40px; /* Increase spacing between results and table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+#totalProfitLossRow {
+    font-weight: bold;
+}
+
+.delete-btn {
+    padding: 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+.positive-profit {
+    background-color: #5cb85c; /* Green background for positive profit */
+    color: #fff; /* White text color */
+}
+
+.negative-profit {
+    background-color: #d9534f; /* Red background for negative profit */
+    color: #fff; /* White text color */
+}

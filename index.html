@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker- Project 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Crypto Tracker</h1>
+        <form id="cryptoForm">
+            <label for="cryptoSelect">Select Crypto:</label>
+            <select id="cryptoSelect" required>
+            </select>
+            <label for="quantity">Quantity Owned:</label>
+            <input type="text" id="quantity" name="quantity" required>
+
+            <label for="purchasePrice">Purchase Price (per unit):</label>
+            <input type="text" id="purchasePrice" name="purchasePrice" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="results">
+            <!-- this is where the results will show -->
+        </div>
+        <h2>Your Cryptocurrencies</h2>
+        <table id="cryptoTable">
+            <thead>
+                <tr>
+                    <th>Crypto</th>
+                    <th>Quantity Owned</th>
+                    <th>Purchase Price</th>
+                    <th>Current Price</th>
+                    <th>Total Value</th>
+                    <th>Profit/Loss</th>
+                </tr>
+            </thead>
+            <tbody id="cryptoTableBody">
+                <!-- Saved crypto data will be populated dynamically in this area (tbody)-->
+            </tbody>
+        </table>
+
+        <h2>Total Profit/Loss</h2>
+        <table id="totalProfitLossTable">
+            <tbody id="totalProfitLossBody">
+                <!-- Total profit/loss data will be populated dynamically in this area (tbody) -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
